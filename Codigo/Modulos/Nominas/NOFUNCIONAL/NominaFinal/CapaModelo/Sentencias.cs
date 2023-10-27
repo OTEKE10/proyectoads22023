@@ -70,6 +70,15 @@ namespace CapaModeloNomina
             return empleadoEncontrado;
         }
 
+        public OdbcDataAdapter llenartabla(string tabla)
+        {
+            string sql = "select * from " + tabla + " ;";
+            OdbcDataAdapter datatable = new OdbcDataAdapter(sql, con.connection());
+            return datatable;
+
+
+        }
+
         public void InsertarDeduccion(int idEmpleado, int sueldoBase, string impuestos, string otrosDescuentos, int sueldoFinal, int prestamoAnticipo)
         {
             using (OdbcConnection connection = con.connection())
