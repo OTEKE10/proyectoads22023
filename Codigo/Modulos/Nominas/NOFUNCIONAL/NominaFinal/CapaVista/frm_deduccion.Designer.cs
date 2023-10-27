@@ -1,5 +1,5 @@
 ﻿
-namespace CapaVista
+namespace CapaVistaNomina
 {
     partial class frm_deduccion
     {

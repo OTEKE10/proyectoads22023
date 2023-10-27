@@ -11,7 +11,7 @@ using CapaControladorNomina;
 using CapaModeloNomina;
 
 
-namespace CapaVista
+namespace CapaVistaNomina
 {
     public partial class frm_deduccion : Form
     {

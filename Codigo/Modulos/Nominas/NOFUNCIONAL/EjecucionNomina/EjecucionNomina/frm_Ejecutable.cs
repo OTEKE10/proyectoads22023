@@ -20,7 +20,7 @@ namespace EjecucionNomina
         public frm_Ejecutable()
         {
             InitializeComponent();
-            this.openChildFormInPanel(new CapaVista.Form1());
+           // this.openChildFormInPanel(new CapaVista.Form1());
 
         }
 

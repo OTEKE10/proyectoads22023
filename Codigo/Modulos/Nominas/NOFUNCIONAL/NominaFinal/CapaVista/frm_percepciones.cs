@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CapaVistaNomina;
 
-namespace CapaVista
+namespace CapaVistaNomina
 {
     public partial class frm_percepciones : Form
     {

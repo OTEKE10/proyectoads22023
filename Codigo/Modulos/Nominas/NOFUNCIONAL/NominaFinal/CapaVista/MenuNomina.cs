@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Seguridad_Controlador;
-using CapaVista;
+using CapaVistaNomina;
 
 
 namespace CapaVistaNomina
@@ -114,7 +114,7 @@ namespace CapaVistaNomina
 
         private void btn_deducciones_Click(object sender, EventArgs e)
         {
-            frm_deduccion nomded = new CapaVista.frm_deduccion();
+            frm_deduccion nomded = new frm_deduccion();
             nomded.MdiParent = this;
             nomded.Show();
             hideSubMenu();
@@ -125,7 +125,7 @@ namespace CapaVistaNomina
 
         private void btn_percepciones_Click(object sender, EventArgs e)
         {
-            frm_percepciones nomperc = new CapaVista.frm_percepciones();
+            frm_percepciones nomperc = new frm_percepciones();
             nomperc.MdiParent = this;
             nomperc.Show();
             hideSubMenu();

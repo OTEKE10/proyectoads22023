@@ -31,21 +31,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CapaControladorNav">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Escritorio\Navegador\CapaVista\bin\Debug\CapaControladorNav.dll</HintPath>
+    </Reference>
     <Reference Include="CapaControladorNomina">
       <HintPath>..\CapaControlador\bin\Debug\CapaControladorNomina.dll</HintPath>
     </Reference>
-    <Reference Include="CapaModeloNomina, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\CapaModelo\bin\Debug\CapaModeloNomina.dll</HintPath>
+    <Reference Include="CapaModeloNomina">
+      <HintPath>..\CapaControlador\bin\Debug\CapaModeloNomina.dll</HintPath>
     </Reference>
     <Reference Include="CapaVistaNav">
-      <HintPath>..\..\..\..\..\Componentes\Navegador\CapaVista\bin\Release\CapaVistaNav.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Escritorio\Navegador\CapaVista\bin\Debug\CapaVistaNav.dll</HintPath>
     </Reference>
     <Reference Include="Modelo_Seguridad">
-      <HintPath>..\..\..\..\..\..\..\..\Modelo_Seguridad.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Escritorio\Navegador\CapaVista\bin\Debug\Modelo_Seguridad.dll</HintPath>
     </Reference>
     <Reference Include="Seguridad_Controlador">
-      <HintPath>..\..\..\..\..\..\..\..\Seguridad_Controlador.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\..\..\..\..\Escritorio\Navegador\CapaVista\bin\Debug\Seguridad_Controlador.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -59,12 +61,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frm_menu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frm_menu.Designer.cs">
-      <DependentUpon>frm_menu.cs</DependentUpon>
-    </Compile>
     <Compile Include="frm_deduccion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,12 +85,6 @@
     <Compile Include="frm_percepciones.Designer.cs">
       <DependentUpon>frm_percepciones.cs</DependentUpon>
     </Compile>
-    <Compile Include="MDIParent1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MDIParent1.Designer.cs">
-      <DependentUpon>MDIParent1.cs</DependentUpon>
-    </Compile>
     <Compile Include="MenuNomina.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,9 +99,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frm_menu.resx">
-      <DependentUpon>frm_menu.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frm_deduccion.resx">
       <DependentUpon>frm_deduccion.cs</DependentUpon>
     </EmbeddedResource>
@@ -123,9 +110,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_percepciones.resx">
       <DependentUpon>frm_percepciones.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MDIParent1.resx">
-      <DependentUpon>MDIParent1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuNomina.resx">
       <DependentUpon>MenuNomina.cs</DependentUpon>

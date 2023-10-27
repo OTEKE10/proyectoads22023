@@ -1,4 +1,4 @@
-﻿namespace CapaVista
+﻿namespace CapaVistaNomina
 {
     partial class frm_mantenimiento
     {
@@ -37,6 +37,8 @@
             this.txt_nombre_empleado = new System.Windows.Forms.TextBox();
             this.txt_id_empleado = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txt_emp_sueldo = new System.Windows.Forms.TextBox();
             this.navegador1 = new CapaVista.Navegador();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -44,7 +46,7 @@
             // txt_cargo_empleado
             // 
             this.txt_cargo_empleado.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_cargo_empleado.Location = new System.Drawing.Point(384, 273);
+            this.txt_cargo_empleado.Location = new System.Drawing.Point(384, 311);
             this.txt_cargo_empleado.Name = "txt_cargo_empleado";
             this.txt_cargo_empleado.Size = new System.Drawing.Size(234, 34);
             this.txt_cargo_empleado.TabIndex = 87;
@@ -73,7 +75,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(133, 272);
+            this.label3.Location = new System.Drawing.Point(138, 315);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 30);
             this.label3.TabIndex = 81;
@@ -120,27 +122,48 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(129, 328);
+            this.dataGridView1.Location = new System.Drawing.Point(138, 361);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(590, 153);
             this.dataGridView1.TabIndex = 88;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(138, 273);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(118, 38);
+            this.label5.TabIndex = 90;
+            this.label5.Text = "Sueldo";
+            // 
+            // txt_emp_sueldo
+            // 
+            this.txt_emp_sueldo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_emp_sueldo.Location = new System.Drawing.Point(384, 270);
+            this.txt_emp_sueldo.Name = "txt_emp_sueldo";
+            this.txt_emp_sueldo.Size = new System.Drawing.Size(234, 34);
+            this.txt_emp_sueldo.TabIndex = 91;
+            this.txt_emp_sueldo.Tag = "emp_sueldo";
+            // 
             // navegador1
             // 
-            this.navegador1.Location = new System.Drawing.Point(22, 11);
+            this.navegador1.Location = new System.Drawing.Point(1, 3);
             this.navegador1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.navegador1.Name = "navegador1";
-            this.navegador1.Size = new System.Drawing.Size(989, 91);
-            this.navegador1.TabIndex = 89;
+            this.navegador1.Size = new System.Drawing.Size(1116, 112);
+            this.navegador1.TabIndex = 92;
             // 
             // frm_mantenimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1024, 493);
+            this.ClientSize = new System.Drawing.Size(1131, 558);
             this.Controls.Add(this.navegador1);
+            this.Controls.Add(this.txt_emp_sueldo);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.txt_cargo_empleado);
             this.Controls.Add(this.label4);
@@ -169,6 +192,8 @@
         private System.Windows.Forms.TextBox txt_nombre_empleado;
         private System.Windows.Forms.TextBox txt_id_empleado;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private Navegador navegador1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txt_emp_sueldo;
+        private CapaVista.Navegador navegador1;
     }
 }

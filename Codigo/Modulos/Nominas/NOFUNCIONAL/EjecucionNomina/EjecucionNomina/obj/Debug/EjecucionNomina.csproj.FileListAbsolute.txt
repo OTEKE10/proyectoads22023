@@ -89,3 +89,4 @@ C:\Users\oteke\OneDrive\Escritorio\GIT1\proyectoads22023\Codigo\Modulos\Nominas\
 C:\Users\oteke\OneDrive\Escritorio\GIT1\proyectoads22023\Codigo\Modulos\Nominas\NOFUNCIONAL\EjecucionNomina\EjecucionNomina\obj\Debug\EjecucionNomina.csproj.CopyComplete
 C:\Users\oteke\OneDrive\Escritorio\GIT1\proyectoads22023\Codigo\Modulos\Nominas\NOFUNCIONAL\EjecucionNomina\EjecucionNomina\obj\Debug\EjecucionNomina.exe
 C:\Users\oteke\OneDrive\Escritorio\GIT1\proyectoads22023\Codigo\Modulos\Nominas\NOFUNCIONAL\EjecucionNomina\EjecucionNomina\obj\Debug\EjecucionNomina.pdb
+C:\Users\d_car\OneDrive\Documentos\GitHub\GRUPONOMINAS\proyectoads22023NOMINAS\Codigo\Modulos\Nominas\NOFUNCIONAL\EjecucionNomina\EjecucionNomina\bin\Debug\CapaVistaNav.dll
