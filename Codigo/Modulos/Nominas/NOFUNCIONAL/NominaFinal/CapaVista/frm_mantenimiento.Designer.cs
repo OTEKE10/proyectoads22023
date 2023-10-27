@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.txt_cargo_empleado = new System.Windows.Forms.TextBox();
-            this.btn_buscar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.txt_apellido_empleado = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -50,16 +49,6 @@
             this.txt_cargo_empleado.Size = new System.Drawing.Size(234, 34);
             this.txt_cargo_empleado.TabIndex = 87;
             this.txt_cargo_empleado.Tag = "cargo";
-            // 
-            // btn_buscar
-            // 
-            this.btn_buscar.Location = new System.Drawing.Point(785, 131);
-            this.btn_buscar.Name = "btn_buscar";
-            this.btn_buscar.Size = new System.Drawing.Size(101, 34);
-            this.btn_buscar.TabIndex = 85;
-            this.btn_buscar.Text = "Buscar";
-            this.btn_buscar.UseVisualStyleBackColor = true;
-            this.btn_buscar.Click += new System.EventHandler(this.btn_buscar_Click);
             // 
             // label4
             // 
@@ -154,7 +143,6 @@
             this.Controls.Add(this.navegador1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.txt_cargo_empleado);
-            this.Controls.Add(this.btn_buscar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txt_apellido_empleado);
             this.Controls.Add(this.label3);
@@ -173,7 +161,6 @@
         #endregion
 
         private System.Windows.Forms.TextBox txt_cargo_empleado;
-        private System.Windows.Forms.Button btn_buscar;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txt_apellido_empleado;
         private System.Windows.Forms.Label label3;

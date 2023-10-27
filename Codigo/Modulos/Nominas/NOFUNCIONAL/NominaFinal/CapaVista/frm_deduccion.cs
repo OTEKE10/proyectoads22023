@@ -17,11 +17,20 @@ namespace CapaVista
     {
 
         Controlador ctrl = new Controlador();
+        string tabla = "tbl_empleado";
+
+        public void llenar()
+        {
+            DataTable dt = ctrl.llenartabla(tabla);
+            dataGridView1.DataSource = dt;
+
+        }
 
         public frm_deduccion()
         {
             InitializeComponent();
             this.ctrl = new Controlador();
+            llenar();
           
 
 
@@ -114,7 +123,7 @@ namespace CapaVista
 
                 if (cargo == 2)
                 {
-                    isr = sueldo * 0.10M;
+                   
                     iggss = sueldo * 0.0483M;  
                 }
 
