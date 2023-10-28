@@ -54,6 +54,7 @@ namespace CapaVistaNomina
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.btnsalir = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -62,6 +63,7 @@ namespace CapaVistaNomina
             this.PanelAuditoria.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panelseguridad.SuspendLayout();
             this.panelSideMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
@@ -165,7 +167,7 @@ namespace CapaVistaNomina
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(12, 35);
+            this.pictureBox5.Location = new System.Drawing.Point(12, 19);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(50, 51);
             this.pictureBox5.TabIndex = 49;
@@ -183,9 +185,10 @@ namespace CapaVistaNomina
             this.btn_mant_percepciones.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
             this.btn_mant_percepciones.Size = new System.Drawing.Size(348, 46);
             this.btn_mant_percepciones.TabIndex = 4;
-            this.btn_mant_percepciones.Text = "Percepciones";
+            this.btn_mant_percepciones.Text = "Departamento";
             this.btn_mant_percepciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_mant_percepciones.UseVisualStyleBackColor = true;
+            this.btn_mant_percepciones.Click += new System.EventHandler(this.btn_mant_percepciones_Click);
             // 
             // btn_mantenimiento_empleado
             // 
@@ -267,7 +270,7 @@ namespace CapaVistaNomina
             this.btn_percepciones.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.btn_percepciones.Name = "btn_percepciones";
             this.btn_percepciones.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
-            this.btn_percepciones.Size = new System.Drawing.Size(348, 46);
+            this.btn_percepciones.Size = new System.Drawing.Size(348, 51);
             this.btn_percepciones.TabIndex = 5;
             this.btn_percepciones.Text = "Percepciones";
             this.btn_percepciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -314,6 +317,8 @@ namespace CapaVistaNomina
             // panelseguridad
             // 
             this.panelseguridad.BackColor = System.Drawing.Color.LightSlateGray;
+            this.panelseguridad.Controls.Add(this.pictureBox4);
+            this.panelseguridad.Controls.Add(this.button1);
             this.panelseguridad.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelseguridad.Location = new System.Drawing.Point(0, 507);
             this.panelseguridad.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
@@ -378,7 +383,6 @@ namespace CapaVistaNomina
             this.panelSideMenu.AutoScroll = true;
             this.panelSideMenu.BackColor = System.Drawing.Color.DarkSlateGray;
             this.panelSideMenu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panelSideMenu.Controls.Add(this.pictureBox4);
             this.panelSideMenu.Controls.Add(this.btnsalir);
             this.panelSideMenu.Controls.Add(this.btnayuda);
             this.panelSideMenu.Controls.Add(this.panelayuda);
@@ -402,7 +406,7 @@ namespace CapaVistaNomina
             // 
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(12, 456);
+            this.pictureBox4.Location = new System.Drawing.Point(3, 0);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(50, 51);
             this.pictureBox4.TabIndex = 49;
@@ -428,6 +432,22 @@ namespace CapaVistaNomina
             this.btnsalir.UseVisualStyleBackColor = false;
             this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
+            // button1
+            // 
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(0, 0);
+            this.button1.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
+            this.button1.Size = new System.Drawing.Size(348, 46);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Percepciones";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // MenuNomina
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
@@ -451,6 +471,7 @@ namespace CapaVistaNomina
             this.PanelAuditoria.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panelseguridad.ResumeLayout(false);
             this.panelSideMenu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
@@ -483,5 +504,6 @@ namespace CapaVistaNomina
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Button button1;
     }
 }

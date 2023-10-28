@@ -26,7 +26,6 @@ C:\Users\d_car\OneDrive\Documentos\GitHub\GRUPONOMINAS\proyectoads22023NOMINAS\C
 C:\Users\d_car\OneDrive\Documentos\GitHub\GRUPONOMINAS\proyectoads22023NOMINAS\Codigo\Modulos\Nominas\NOFUNCIONAL\EjecucionNomina\EjecucionNomina\bin\Debug\CapaControladorNav.pdb
 C:\Users\d_car\OneDrive\Documentos\GitHub\GRUPONOMINAS\proyectoads22023NOMINAS\Codigo\Modulos\Nominas\NOFUNCIONAL\EjecucionNomina\EjecucionNomina\bin\Debug\CapaModeloNav.pdb
 C:\Users\d_car\OneDrive\Documentos\GitHub\GRUPONOMINAS\proyectoads22023NOMINAS\Codigo\Modulos\Nominas\NOFUNCIONAL\EjecucionNomina\EjecucionNomina\obj\Debug\EjecucionNomina.csproj.AssemblyReference.cache
-C:\Users\d_car\OneDrive\Documentos\GitHub\GRUPONOMINAS\proyectoads22023NOMINAS\Codigo\Modulos\Nominas\NOFUNCIONAL\EjecucionNomina\EjecucionNomina\obj\Debug\EjecucionNomina.frm_Ejecutable.resources
 C:\Users\d_car\OneDrive\Documentos\GitHub\GRUPONOMINAS\proyectoads22023NOMINAS\Codigo\Modulos\Nominas\NOFUNCIONAL\EjecucionNomina\EjecucionNomina\obj\Debug\EjecucionNomina.Properties.Resources.resources
 C:\Users\d_car\OneDrive\Documentos\GitHub\GRUPONOMINAS\proyectoads22023NOMINAS\Codigo\Modulos\Nominas\NOFUNCIONAL\EjecucionNomina\EjecucionNomina\obj\Debug\EjecucionNomina.csproj.GenerateResource.cache
 C:\Users\d_car\OneDrive\Documentos\GitHub\GRUPONOMINAS\proyectoads22023NOMINAS\Codigo\Modulos\Nominas\NOFUNCIONAL\EjecucionNomina\EjecucionNomina\obj\Debug\EjecucionNomina.csproj.CoreCompileInputs.cache

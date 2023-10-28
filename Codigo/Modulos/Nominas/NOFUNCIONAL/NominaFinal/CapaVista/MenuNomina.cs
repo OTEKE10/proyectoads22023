@@ -85,7 +85,7 @@ namespace CapaVistaNomina
         //Método que muestra el formulario indicado
         private void btn_mantenimiento_empleados_Click(object sender, EventArgs e)
         {
-            frm_mantenimiento mant = new frm_mantenimiento();
+            frm_mantenimiento_empleado mant = new frm_mantenimiento_empleado();
             mant.MdiParent = this;
             mant.Show();
             hideSubMenu();
@@ -128,6 +128,14 @@ namespace CapaVistaNomina
             frm_percepciones nomperc = new frm_percepciones();
             nomperc.MdiParent = this;
             nomperc.Show();
+            hideSubMenu();
+        }
+
+        private void btn_mant_percepciones_Click(object sender, EventArgs e)
+        {
+            frm_mantenimiento_departamento mantdep = new frm_mantenimiento_departamento();
+            mantdep.MdiParent = this;
+            mantdep.Show();
             hideSubMenu();
         }
     }

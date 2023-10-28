@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using CapaVista;
+using CapaVistaNomina;
 
 namespace EjecucionNomina
 {
@@ -17,7 +17,7 @@ namespace EjecucionNomina
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-             Application.Run(new CapaVistaNomina.MenuNomina());
+            Application.Run(new CapaVistaNomina.MenuNomina());
            // Application.Run(new CapaVistaNomina.MenuNomina());
             //Application.Run(new Form1());
         }

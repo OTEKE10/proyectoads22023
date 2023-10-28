@@ -12,23 +12,23 @@ using CapaVistaNomina;
 
 namespace CapaVistaNomina
 {
-    public partial class frm_mantenimiento : Form
+    public partial class frm_mantenimiento_empleado : Form
     {
         Controlador ctrl = new Controlador();
-
-        //string tabla = "tbl_empleado";
-        public frm_mantenimiento()
+        
+        string tabla = "tbl_departamento";
+        public frm_mantenimiento_empleado()
         {
             InitializeComponent();
             this.navegador1.config("tbl_empleado", this, "");
            
-            // llenar();
+             llenar();
            
         }
         public void llenar()
         {
-           // DataTable dt = ctrl.llenartabla(tabla);
-           // dataGridView1.DataSource = dt;
+           DataTable dt = ctrl.llenartabla(tabla);
+           dataDepa.DataSource = dt;
         }
             private void btn_buscar_Click(object sender, EventArgs e)
         {

@@ -73,11 +73,17 @@
     <Compile Include="frm_liquidacion.Designer.cs">
       <DependentUpon>frm_liquidacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_mantenimiento.cs">
+    <Compile Include="frm_mantenimiento_departamento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_mantenimiento.Designer.cs">
-      <DependentUpon>frm_mantenimiento.cs</DependentUpon>
+    <Compile Include="frm_mantenimiento_departamento.Designer.cs">
+      <DependentUpon>frm_mantenimiento_departamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_mantenimiento_empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_mantenimiento_empleado.Designer.cs">
+      <DependentUpon>frm_mantenimiento_empleado.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_percepciones.cs">
       <SubType>Form</SubType>
@@ -105,8 +111,11 @@
     <EmbeddedResource Include="frm_liquidacion.resx">
       <DependentUpon>frm_liquidacion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_mantenimiento.resx">
-      <DependentUpon>frm_mantenimiento.cs</DependentUpon>
+    <EmbeddedResource Include="frm_mantenimiento_departamento.resx">
+      <DependentUpon>frm_mantenimiento_departamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_mantenimiento_empleado.resx">
+      <DependentUpon>frm_mantenimiento_empleado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_percepciones.resx">
       <DependentUpon>frm_percepciones.cs</DependentUpon>
